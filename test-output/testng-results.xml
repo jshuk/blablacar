@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[enter loggin name]]>
+    </line>
+    <line>
+      <![CDATA[login complete]]>
+    </line>
+    <line>
+      <![CDATA[enter loggin name]]>
+    </line>
+    <line>
+      <![CDATA[login complete]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60284" started-at="2017-06-02T12:51:32Z" finished-at="2017-06-02T12:52:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60284" started-at="2017-06-02T12:51:32Z" finished-at="2017-06-02T12:52:32Z">
+      <class name="Scriptstorun.Dashboard1">
+        <test-method status="PASS" signature="login1(java.lang.String, java.lang.String)[pri:0, instance:Scriptstorun.Dashboard1@7946e1f4]" name="login1" duration-ms="31487" started-at="2017-06-02T18:21:33Z" data-provider="inputs" finished-at="2017-06-02T18:22:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[charu.smartest@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sarvesh@2017]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[enter loggin name]]>
+            </line>
+            <line>
+              <![CDATA[login complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method status="PASS" signature="login1(java.lang.String, java.lang.String)[pri:0, instance:Scriptstorun.Dashboard1@7946e1f4]" name="login1" duration-ms="27334" started-at="2017-06-02T18:22:05Z" data-provider="inputs" finished-at="2017-06-02T18:22:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jaya124shukla@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jayashukla69]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[enter loggin name]]>
+            </line>
+            <line>
+              <![CDATA[login complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+      </class> <!-- Scriptstorun.Dashboard1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
